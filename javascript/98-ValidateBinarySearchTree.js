@@ -1,14 +1,20 @@
-/**
- * Definition for a binary tree node.
- * function TreeNode(val) {
- *     this.val = val;
- *     this.left = this.right = null;
- * }
+/*
+ * @Author: jjy
+ * @Date: 2019-10-27 21:57:58
+ * @LastEditors: jjy
+ * @LastEditTime: 2019-12-27 11:05:10
  */
+
+/**
+ * 中序遍历二叉树，按序存储到数组
+ * 判断数组是否递增
+ */
+
 /**
  * @param {TreeNode} root
  * @return {boolean}
  */
+
 var isValidBST = function(root) {
     var ary = traversal(root, []);
     
