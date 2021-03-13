@@ -2,13 +2,11 @@
  * @Author: jjy
  * @Date: 2020-05-30 17:29:56
  * @LastEditors: jjy
- * @LastEditTime: 2020-05-30 17:30:20
+ * @LastEditTime: 2020-05-30 17:38:11
  */ 
-
 /**
  * 动态规划解法
  */
-
 
 /**
  * @param {number[]} piles
